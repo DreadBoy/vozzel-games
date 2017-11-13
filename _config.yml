@@ -7,7 +7,7 @@ title: Vozzel Games
 subtitle:
 description:
 author: Matic Leva
-language:
+language: en
 timezone:
 
 # URL
@@ -24,7 +24,7 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: :lang
+i18n_dir: :language
 skip_render:
 
 # Writing
