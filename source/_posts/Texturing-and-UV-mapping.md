@@ -4,11 +4,12 @@ date: 2017-11-13 17:06:11
 tags:
 ---
 
-I'm a great fan of retro pixe land lowpoly art styles and for my latest game project I'm trying my hands at recreating it. My biggest inspirations so far are Terraria, Minecraft and to an extend Stoneheart and I'm trying to recreate those styles. I have almost zero artistic skills so for the starter I decided to use free textures created by Kenney and combine them to create complete textures for machines. After following [Blender's tutorial](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/UV_Map_Basics) I was familiar with how to unwrap cube and apply texture to it but this where the tutorial ended. When I tried texturing more complex objects I failed spectacularly and 0after finally figuring it out, I decided to write simple step by step advice on how I did it. I'm going to walk you through texturing new machine, High temperature stone furnace. This is how it's going to look like at the end: 
+I'm a great fan of retro pixe land lowpoly art styles and for my latest game project I'm trying my hands at recreating it. My biggest inspirations so far are Terraria, Minecraft and to an extend Stoneheart and I'm trying to recreate those styles. I have almost zero artistic skills so for the starter I decided to use free textures created by Kenney and combine them to create complete textures for machines. After following [Blender's tutorial](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/UV_Map_Basics) I was familiar with how to unwrap cube and apply texture to it but this where the tutorial ended. When I tried texturing more complex objects I failed spectacularly and after finally figuring it out, I decided to write simple step by step advice on how I did it. I'm going to walk you through texturing new machine, High temperature stone furnace. This is how it's going to look like at the end: 
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Got first multiblock structure into the game and also implemented some basic automation. Things are shaping up :) <a href="https://t.co/SNFxKxKBYY">pic.twitter.com/SNFxKxKBYY</a></p>&mdash; Matic Leva (@Dread_Boy) <a href="https://twitter.com/Dread_Boy/status/929976795851616256?ref_src=twsrc%5Etfw">November 13, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<!-- more --> 
 You should first read the tutorial I mentioned and then come back for additional tips.
 
 ## Mark seams and unwrap carefully
