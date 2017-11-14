@@ -13,7 +13,7 @@ I'm a great fan of retro pixe land lowpoly art styles and for my latest game pro
 You should first read the tutorial I mentioned and then come back for additional tips.
 
 ## Mark seams and unwrap carefully
-This is where I failed first. Blender tutorial shows you how to mark seam and then how to unwrap the object but I either didn't read carefully enough or didn't understand implications. Seams are where texture is going to split and not every edge should be marked as seam. I found the easiest way to mark correct seams and it is by imagining the object as if it is made out of paper and you are trying to unfold it. Something [like this](https://www.wikihow.com/Make-a-3D-Cube). Once I realised this, it became very simple to unwrap semi-complex model of high temperature stone furnace. Seams are marked as red in picture below:
+This is where I failed first. Blender tutorial shows you how to mark seam and then how to unwrap the object but I either didn't read carefully enough or didn't understand implications. Seams are where texture is going to split and not every edge should be marked as seam. I found the easiest way to mark correct seams is by imagining the object as if it is made out of paper and you are trying to unfold it. Something [like this](https://www.wikihow.com/Make-a-3D-Cube). Once I realised this, it became very simple to unwrap semi-complex model of high temperature stone furnace. Seams are marked as red in picture below:
 
 ![](HTSF_seams.png)
 
