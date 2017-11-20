@@ -8,6 +8,8 @@ Unity promises to seamlessly import `.fbx` files that were exported from Blender
 
 <!-- more -->
 
+Unity promises to seamlessly import `.fbx` files that were exported from Blender. While that is mostly true, there are still some additional steps we need to take and some caveats we need to be aware off. After fiddling around with Blender and Unity and a lot of help from internet, I managed to compile a list of steps you need to take in order to successfully export model from Blender and use it in Unity and I'm sharing it in following blog post.
+
 Steps you need to take are roughly:
 
 1. Check model dimensions
