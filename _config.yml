@@ -5,7 +5,8 @@
 # Site
 title: Vozzel Games
 subtitle:
-description:
+description: Vozzel games is one-man indie game dev studio, formed by Matic Leva.
+cover: /images/ilya-pavlov-87438.jpg
 author: Matic Leva
 language: en
 timezone:
@@ -86,6 +87,6 @@ feed:
   path: atom.xml
   limit: 20
   hub:
-  content:
+  content: true
   content_limit: 140
   content_limit_delim: ' '
