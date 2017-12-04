@@ -1,6 +1,6 @@
 ---
 title: I've just spent 3 days fixing my mistake
-date: 2017-11-17 15:04:15
+date: 2017-11-20 15:04:15
 tags:
 logoIcon: fa-pencil-square
 ---
@@ -35,6 +35,6 @@ Okey, now let's talk about mistake in title. When I was designing objects to rep
 
 While doing al that work, I started thinking whether there are games or prototypes written in Redux. Redux is great paradigm that strongly separates data and behaviour while also introduces immutability of data. Lo and behold, I found [two](https://codepen.io/thepeted/pen/bpovxz) small [games](https://github.com/expo/fluxpybird) and [Unity framework](https://github.com/mattak/Unidux) that use Redux principles... Maybe I'll look into it at my next game jam to see if it's as useful as in web development. Anyway, expect first playable alpha in near future, I've also been working on new UI animations. 😉
 
-<video poster="/2017/11/15/gifs/2017-11-15 18-01-18.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" webkit-playsinline="">
-		<source src="/2017/11/15/gifs/2017-11-15 18-01-18.mp4" type="video/mp4">
+<video poster="/2017/11/20/I-ve-just-spent-3-days-fixing-my-mistake/2017-11-15 18-01-18.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" webkit-playsinline="">
+		<source src="/2017/11/20/I-ve-just-spent-3-days-fixing-my-mistake/2017-11-15 18-01-18.mp4" type="video/mp4">
 </video>
