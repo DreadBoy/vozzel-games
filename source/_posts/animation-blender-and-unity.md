@@ -2,9 +2,8 @@
 title: Unity centric guide to Blender animations
 logoIcon: fa-cog fa-spin
 date: 2017-12-04 13:15:47
-tags:
+share_cover: /2017/12/04/animation-blender-and-unity/2017-12-04 11-06-24.png
 ---
-
 
 Recently I wanted to model, texture, animate and export to Unity first complex machine in my upcoming game. I searched wide and far and couldn't find simple text guide on how to animate object, correctly export it and then import it into Unity. This guide hopes to achieve that, guiding you through simple steps on how to create following windmill.
 

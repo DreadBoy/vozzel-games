@@ -2,6 +2,7 @@
 title: Entities can now display notification callouts
 date: 2017-11-26 17:09:01
 logoIcon: fa-exclamation-triangle
+share_cover: /2017/11/26/notification-callouts/2017-11-26 14-39-48.png
 ---
 
 Last few days I've been working on machine notifications. Imagine your furnace ran out of coal or conveyor belt is backed up... As a game designer, how do you convey this information to the player? 

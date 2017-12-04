@@ -2,6 +2,7 @@
 title: Texturing and UV mapping
 date: 2017-11-13 17:06:11
 tags:
+share_cover: 2017/11/13/Texturing-and-UV-mapping/DOfwySXXkAYxm5z.jpg
 ---
 
 I'm a great fan of retro pixel and low-poly art styles and for my latest game project I'm trying my hands at recreating it. My biggest inspirations so far are Terraria, Minecraft and to an extend Stoneheart and I'm trying to recreate those styles. I have almost zero artistic skills so for the starter I decided to use free textures created by Kenney and combine them to create complete textures for machines. After following [Blender's tutorial](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/UV_Map_Basics) I was familiar with how to unwrap cube and apply texture to it but this where the tutorial ended. When I tried texturing more complex objects I failed spectacularly and after finally figuring it out, I decided to write simple step by step advice on how I did it. I'm going to walk you through texturing new machine, High temperature stone furnace. This is how it's going to look like at the end: 

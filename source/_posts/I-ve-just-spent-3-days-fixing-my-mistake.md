@@ -3,6 +3,7 @@ title: I've just spent 3 days fixing my mistake
 date: 2017-11-20 15:04:15
 tags:
 logoIcon: fa-pencil-square
+share_cover: /2017/11/20/I-ve-just-spent-3-days-fixing-my-mistake/2017-11-15 18-01-18.png
 ---
 
 Yes, you've read it right. I made a mistake and it took me 3 days to fix it. Here's what I did and how I fixed it.
