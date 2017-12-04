@@ -1,5 +1,5 @@
 ---
-title: Unity centric guide to Blender animations
+title: Unity-centric guide to Blender animations
 logoIcon: fa-cog fa-spin
 date: 2017-12-04 13:15:47
 share_cover: /2017/12/04/animation-blender-and-unity/2017-12-04 11-06-24.png
