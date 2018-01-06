@@ -20,6 +20,25 @@ footer.footer-content
   ul
     list-style-type none
     padding-left 0
+  li
+    position relative
+  ul.recent_posts a
+    overflow hidden
+    display inline-block
+    width 100%
+    line-height 1em
+  ul.recent_posts a:after
+    display block
+    content ""
+    position absolute
+    right 0
+    top 0
+    height 100%
+    width 30px
+    background-image linear-gradient(to right, transparent, #0f1516)
+  ul.recent_posts span
+    white-space nowrap
+        
   .footer-about
     text-align left
     @media $sm
