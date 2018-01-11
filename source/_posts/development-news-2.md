@@ -49,7 +49,3 @@ Item collected at one place can then be picked up by conveyor belt, transported 
 <figure><video poster="/2017/12/22/development-news-2/2017-12-25 12-21-25.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" webkit-playsinline="">
 		<source src="/2017/12/22/development-news-2/2017-12-25 12-21-25.mp4" type="video/mp4">
 </video><figcaption>This ain't storage area but you get the idea. 😃</figcaption></figure>
-
-<hr>
-
-Don't forget to follow me on [Twitter](https://twitter.com/Dread_Boy) for regular development updates and subscribe to [RSS feed](http://vozzel.games/atom.xml) if you still use that kind of thing.
