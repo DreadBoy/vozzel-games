@@ -20,8 +20,8 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Texturing and UV mapping">
-        <meta name="twitter:title" content="Texturing and UV mapping">
+        <meta property="og:title" content="Just finish the damn game!">
+        <meta name="twitter:title" content="Just finish the damn game!">
     
 
     <!--Open Graph Description-->
@@ -40,13 +40,12 @@
 
     <!--Page Cover-->
     
-        <meta property="og:image" content="http://vozzel.games2017/11/13/Texturing-and-UV-mapping/DOfwySXXkAYxm5z.jpg">
+        <meta property="og:image" content="http://vozzel.games/images/ilya-pavlov-87438.jpg">
     
 
     <!--Twitter tags-->
     
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:image" content="http://vozzel.games2017/11/13/Texturing-and-UV-mapping/DOfwySXXkAYxm5z.jpg">
+        <meta name="twitter:card" content="summary">
     
 
     
@@ -55,7 +54,7 @@
 
     <!-- Title -->
     
-    <title>Texturing and UV mapping - Vozzel Games</title>
+    <title>Just finish the damn game! - Vozzel Games</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
@@ -152,13 +151,13 @@
 
     <div class="post-header">
         <h1 class="title">
-            <a href="/2017/11/13/Texturing-and-UV-mapping/">
-                Texturing and UV mapping
+            <a href="/2018/11/18/just-finish-the-game/">
+                Just finish the damn game!
             </a>
         </h1>
         <div class="post-info">
             
-                <span class="date">2017-11-13</span>
+                <span class="date">2018-11-18</span>
             
             
             
@@ -171,21 +170,28 @@
         
 
         <!-- Post Content -->
-        <p>I’m a great fan of retro pixel and low-poly art styles and for my latest game project I’m trying my hands at recreating it. My biggest inspirations so far are Terraria, Minecraft and to an extend Stoneheart and I’m trying to recreate those styles. I have almost zero artistic skills so for the starter I decided to use free textures created by Kenney and combine them to create complete textures for machines. After following <a href="https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/UV_Map_Basics" target="_blank" rel="noopener">Blender’s tutorial</a> I was familiar with how to unwrap cube and apply texture to it but this where the tutorial ended. When I tried texturing more complex objects I failed spectacularly and after finally figuring it out, I decided to write simple step by step advice on how I did it. I’m going to walk you through texturing new machine, High temperature stone furnace. This is how it’s going to look like at the end: </p>
-<p><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Got first multiblock structure into the game and also implemented some basic automation. Things are shaping up :) <a href="https://t.co/SNFxKxKBYY" target="_blank" rel="noopener">pic.twitter.com/SNFxKxKBYY</a></p>&mdash; Matic Leva (@Dread_Boy) <a href="https://twitter.com/Dread_Boy/status/929976795851616256?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">November 13, 2017</a></blockquote></p>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>You should first read the tutorial I mentioned and then come back for additional tips.</p>
-<h2 id="Mark-seams-and-unwrap-carefully"><a href="#Mark-seams-and-unwrap-carefully" class="headerlink" title="Mark seams and unwrap carefully"></a>Mark seams and unwrap carefully</h2><p>This is where I failed first. Blender tutorial shows you how to mark seam and then how to unwrap the object but I either didn’t read carefully enough or didn’t understand implications. Seams are where texture is going to split and not every edge should be marked as seam. I found the easiest way to mark correct seams is by imagining the object as if it is made out of paper and you are trying to unfold it. Something <a href="https://www.wikihow.com/Make-a-3D-Cube" target="_blank" rel="noopener">like this</a>. Once I realised this, it became very simple to unwrap semi-complex model of high temperature stone furnace. Seams are marked as red in picture below:</p>
-<p><img src="HTSF_seams.png" alt=""></p>
-<p>If you now select all faces of model and unwrap it, you will get this nice shape you can print out and create your own furnace out of paper. 😉 But sadly, UV map is still turned sideways and it’s going to be pain to create texture like that in Photoshop.  </p>
-<p><img src="HTSF_unwrap_first.png" alt=""></p>
-<p>Neat trick to precisely rotate it is to place cursor at centre of image and rotate UV map around this cursor. To centre cursor precisely, open panel by pressing <code>N</code> and enter cursor location, mine was (256, 256) but number depend on your texture size. Then change rotation pivot to 2D cursor:</p>
-<p><img src="HTSF_cursor.png" alt=""></p>
-<p>Now we can finally rotate UV map by using <code>R</code>, typing <code>90</code> and pressing <code>Enter</code>. I love how Blender is all about keybinds, I wish more apps and website supported navigation with keyboard.</p>
-<h2 id="Create-texture-with-your-favourite-image-editor"><a href="#Create-texture-with-your-favourite-image-editor" class="headerlink" title="Create texture with your favourite image editor"></a>Create texture with your favourite image editor</h2><p>Now that we created UV map, we can finally apply our texture to it. Or we could if we had it… After unwrapping and tiding up the UV map, you should export UV map to simple <code>.png</code> by going to <code>UVS -&gt; Export UV Layout</code> and then edit that .png in paint.net or Photoshop. For this texture I used Photoshop but Crate’s and Furnace’s textures were created in paint.net. 🙂 Anyhow, now that you’ve got the texture, simply follow the rest of Blender’s tutorial and you should be good to go. This is how finished furnace looks like in Blender:</p>
-<p><img src="HTSF_finished.png" alt=""></p>
-<p>Sadly, at that point your journey is not finished yet since you still need to export the model, import it into Unity, avoid common mistakes and fix incorrect scales. All of this is really topic for itself so I’m going to talk about it in <a href="/2017/11/14/Importing-Blender-models-into-Unity">next blog post</a>. Have a great day!</p>
+        <h2 id="I-finished-almost-nothing-this-year"><a href="#I-finished-almost-nothing-this-year" class="headerlink" title="I finished almost nothing this year"></a>I finished almost nothing this year</h2><p>I’m slowly getting bored of starting new projects and putting them on ice halfway through. Admittedly, I finished 2 projects out of 7 I started this year so there’s no graveyard of unfinished projects luckily but I still hate how many projects I don’t finish. That computer vision project I already have all the hardware I need but can’t figure out how to detect what I need in live image? Dead in water. Or that space trading game I thought it’ll be really good but it turns out UIs are not that fun? On ice. Or that top down first-person shooter with time rewinding where I figured time rewinding is boring if you want tight game loop? Hanging on nail, collecting dust. That genetic algorithm that calculates optimal starting position for <a href="https://ftb.gamepedia.com/Dandelifeon" target="_blank" rel="noopener">Dandelifeon</a>? Well, I finished that one but it works bad, I can find better starting positions by brute force. It seems that I start many projects but can never bring myself to finish them. 😢</p>
+<p>Well, I did finish 2 projects and I finished both of them because they were small and focused. First one was personal cloud that is powered by Raspberry Pi where I can just push a code to some git repo and code gets built and deployed onto Pi. Pi is of course exposed to internet, traffic is encrypted with LetsEncrypt certificate and oncoming traffic is routed to appropriate Node.js app on same Pi. That allows me to very easily deploy public-facing Node.js apps without any additional configuration, all I need is to push to some repo on Pi. Very cool seeing it in action, trust me. 😁 2nd project I finished was Google Home <a href="https://assistant.google.com/services/a/uid/000000003a415427" target="_blank" rel="noopener">assistant app</a> that helps you roll many-sided cube. It’s simple but very useful app for D&amp;D players that need to roll lots of cubes. </p>
+<blockquote>
+<p>Hey Google, ask Wizard Cuby to roll 10d8 plus 4.<br><em>Rolling 10d8 plus 4 for sum of 56!</em></p>
+</blockquote>
+<h2 id="I-intend-to-finish-something"><a href="#I-intend-to-finish-something" class="headerlink" title="I intend to finish something"></a>I intend to finish something</h2><p>Yeah, I said it. I’ll finish and publish a game. My goal is to publish to Itch.io and charge some money for it. 5€? Probably but price doesn’t matter much, main goal is published game everybody can buy. So let’s break down my plan…</p>
+<ol>
+<li>plan very simple game</li>
+<li>take out all the features until you are left with even simpler game</li>
+<li>implement very small set of features that are left after step 2</li>
+<li>publish the game</li>
+</ol>
+<p>After brainstorming for a simple game that is still enjoyable I decided to do infinite space shooter. It should be simple, all you have is a ship, enemies and bullets. No physics, very little game logic, no story and no levels. Not let’s cut out even more features from already simple game. Let’s drop customisation, you only get 1 space ship. Reduce number of different enemies, 5 is more than enough. We don’t need power-ups and special abilities. All we really need is player’s HP and score. And infinite number of enemies. Will I be able to implement that? Oh, and we don’t need main menu, game over screen with top 5 scores is enough. Let’s not complicate things. 💣</p>
+<p>Finally I was able to reduce a set of features down to 5:</p>
+<ul>
+<li>player moves ship and shoots bullets</li>
+<li>game spawns new enemies all the time</li>
+<li>enemies move and shoot, behaviour is determined by enemy</li>
+<li>game tracks player’s HP and score</li>
+<li>game displays end screen when player is dead</li>
+</ul>
+<p>Let’s implement this and see how I fare this time…</p>
         <hr>
         <div class="article-footer">
             <p>Don’t forget to follow me on <a href="https://twitter.com/Dread_Boy" target="_blank" rel="external">Twitter</a> for regular development updates and subscribe to <a href="http://vozzel.games/atom.xml">RSS feed</a> if you still use that kind of thing. You can also subscribe to my <label for="mce-EMAIL" class="link">mailing list</label>.</p>
