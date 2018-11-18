@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head><meta name="generator" content="Hexo 3.8.0">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="Vozzel games is one-man indie game dev studio, formed by Matic Leva.">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Matic Leva">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="I&#39;ve just spent 3 days fixing my mistake">
+        <meta name="twitter:title" content="I&#39;ve just spent 3 days fixing my mistake">
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Vozzel games is one-man indie game dev studio, formed by Matic Leva.">
+        <meta name="twitter:description" content="Vozzel games is one-man indie game dev studio, formed by Matic Leva.">
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Vozzel Games">
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article">
+    
+
+    <!--Page Cover-->
+    
+        <meta property="og:image" content="http://vozzel.games/2017/11/20/I-ve-just-spent-3-days-fixing-my-mistake/2017-11-15 18-01-18.png">
+    
+
+    <!--Twitter tags-->
+    
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="http://vozzel.games/2017/11/20/I-ve-just-spent-3-days-fixing-my-mistake/2017-11-15 18-01-18.png">
+    
+
+    
+        <meta name="twitter:site" content="@Dread_Boy>">
+    
+
+    <!-- Title -->
+    
+    <title>I&#39;ve just spent 3 days fixing my mistake - Vozzel Games</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Google Analytics -->
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-110603824-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+</head>
+
+
+<body>
+
+<div class="bg-gradient"></div>
+<div class="bg-pattern"></div>
+
+<!-- Menu -->
+<!--Menu Links and Overlay-->
+<div class="menu-bg">
+    <div class="menu-container">
+        <ul>
+            
+            <li class="menu-item">
+                <a href="/">
+                    Home
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/archives">
+                    Archives
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/contact">
+                    Contact
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+<!--Hamburger Icon-->
+<nav>
+    <a href="#menu"></a>
+</nav>
+
+<div class="container">
+
+    <!-- Main Content -->
+    <div class="row">
+    <div class="col-sm-12">
+
+        <!--Title and Logo-->
+        <header>
+    <div class="logo">
+        <a href="/"><i class="logo-icon fa fa-pencil-square" aria-hidden="true"></i></a>
+        
+    </div>
+</header>
+
+        <section class="main">
+            
+<div class="post">
+
+    <div class="post-header">
+        <h1 class="title">
+            <a href="/2017/11/20/I-ve-just-spent-3-days-fixing-my-mistake/">
+                I've just spent 3 days fixing my mistake
+            </a>
+        </h1>
+        <div class="post-info">
+            
+                <span class="date">2017-11-20</span>
+            
+            
+            
+        </div>
+    </div>
+
+    <div class="content">
+
+        <!-- Gallery -->
+        
+
+        <!-- Post Content -->
+        <p>Yes, you’ve read it right. I made a mistake and it took me 3 days to fix it. Here’s what I did and how I fixed it.</p>
+<p>From the beginning of project I knew I will want to support saving and loading. Since this is automation game, it is really important players can save their progress and return to it later. I think there are 2 major ways of saving data to binary file, either automatic or manual. Manual means you have to manually traverse your entire data structure and manually transform every single object into series of bytes you can then write to file stream. This method gives you complete control over bytes you write into file and you can make tons of optimizations because of that. Are ID’s of your blocks string? When serializing, you can assign each unique string auto-incremented integer and save integers instead of strings together with lookup table. If your world contains a lot of blocks, this will greatly decrease file size, specially if you use <code>ushort</code> instead of <code>int</code> (your game won’t have more than 65535 different types of blocks, right?) and your string ID’s are significantly longer than 2 characters. And that’s just one of optimizations you can perform while manually serializing data. But there are of course downsides… One of them is development time because you need to write two methods for every single object you want to serialize and deserialize. It might not seem much but it adds up after a while.</p>
+<p>Second approach you can take is automatic binary serialization with C#’s <a href="https://msdn.microsoft.com/en-us/library/system.runtime.serialization.formatters.binary.binaryformatter.aspx" target="_blank" rel="noopener">BinaryFormatter</a> which takes an object and simply serializes it to file stream. If your data is structured as a graph or tree, this is probably the fastest way to save your objects to file and recreate them at later time. There’s a caveat though… Classes you want to serialize need to be marked with <code>[Serializable]</code> attribute, which means Unity’s <code>Vector3</code> and <code>Quaternion</code> are not serializable by default and since every class in hierarchy need to be marked with <code>[Serializable]</code> you can’t even extend Unity’s classes and make them serializable. Luckily BinaryFormatter provides a way to hook into serialization and deserialization process where you can manually write or read values. In case of <code>Vector3</code> that means you have to create serializable version of <code>Vector3</code>, coping over values and serializing that serializable <code>Vector3Serializable</code>. When deserializing, you just need to convert deserialized <code>Vector3Serializable</code> back to <code>Vector3</code>.</p>
+<figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Serializing Vector3</span></span><br><span class="line">serializationInfo.AddValue(<span class="string">"Position"</span>, <span class="keyword">new</span> Vector3Serializable(Position));</span><br><span class="line"><span class="comment">// Deserializing Vector3</span></span><br><span class="line">Position = (serializationInfo.GetValue(<span class="string">"Position"</span>, <span class="keyword">typeof</span>(Vector3Serializable)) <span class="keyword">as</span> Vector3Serializable).ToVector();</span><br></pre></td></tr></table></figure>
+<p>Upside of using automatic binary serialization is incredibly easy implementation. From the beginning I’ve completely split data from presentation, data resides completely in serializable tree and shares it’s state via events. Presentation, that is Unity’s GameObjects, subscribe to those events and are notified when backing data changes. It’s my first game developed this way and it requires a little more boiler-plate upfront but once you have this going, it’s very easy to reason about. Your furnace suddenly don’t need to know where and how it’s inventory is displayed, it simply notifies any potential subscriber that its inventory has changed. Whether the content of inventory is actually displayed or not is irrelevant to furnace and it can go on its merry way of smelting items. Presentation then takes care of conveying that information to the user, be it in form of GUI, in-world floating icon, sound effects or anything else. This way of doing things seems very counter-intuitive and against all Unity tutorials and guides but in practice it pays off really well. One pay-off is easy serialization implementation. 😊</p>
+<p>You probably noticed I haven’t talked about any mistake yet, right? Well, I had to lay the foundation for further explanation and since you made it this far, here’s today’s <a href="https://twitter.com/duckoftheday" target="_blank" rel="noopener">@duckoftheday</a>.</p>
+<p><blockquote class="twitter-tweet" data-lang="en"><p lang="und" dir="ltr">17 Nov 2017 <a href="https://t.co/fTCWPMfZGu" target="_blank" rel="noopener">pic.twitter.com/fTCWPMfZGu</a></p>&mdash; Duck of the day (@duckoftheday) <a href="https://twitter.com/duckoftheday/status/931518865535852545?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">November 17, 2017</a></blockquote></p>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Okey, now let’s talk about mistake in title. When I was designing objects to represent data and behaviour, I did what was most sensible, I used same class to hold data used by entity and behaviour describing that entity. Data consists of simple private fields and behaviour is contained in methods. Each class also had public events that propagate internal changes in entity’s state and are used by presentation to respond to those changes but they are not important in light of this discussion. Using classes to model real world is very much OOP principle and nothing is wrong with it. In fact, I followed <a href="https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it" target="_blank" rel="noopener">YAGNI principle</a> refraining to implement things I don’t need right now. I managed to implement all the basic mechanics (block placing and breaking) and rendering while having data and behaviour in same class. Only when I came around to actually implementing world saving and loading did I need to refactor a bit of code to separate out data and behaviour. And why did I have to do it? Simply because entity constructor initialized data and and behaviour which was useful when that entity was created for the first time because of player’s interaction. However when entity was deserialized, I didn’t want to initialize data once again so I had to separate it out and make separate methods for data and behaviour initialization. And it didn’t really took me that long, merely a couple of hours so I guess the title was a little click-baity. 😛 Anyway, this refactor helped me find a hidden synchronization bug which I didn’t catch beforehand because data and behaviour were so tightly coupled.</p>
+<p>While doing al that work, I started thinking whether there are games or prototypes written in Redux. Redux is great paradigm that strongly separates data and behaviour while also introduces immutability of data. Lo and behold, I found <a href="https://codepen.io/thepeted/pen/bpovxz" target="_blank" rel="noopener">two</a> small <a href="https://github.com/expo/fluxpybird" target="_blank" rel="noopener">games</a> and <a href="https://github.com/mattak/Unidux" target="_blank" rel="noopener">Unity framework</a> that use Redux principles… Maybe I’ll look into it at my next game jam to see if it’s as useful as in web development. Anyway, expect first playable alpha in near future, I’ve also been working on new UI animations. 😉</p>
+<video poster="/2017/11/20/I-ve-just-spent-3-days-fixing-my-mistake/2017-11-15 18-01-18.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" webkit-playsinline=""><br>        <source src="/2017/11/20/I-ve-just-spent-3-days-fixing-my-mistake/2017-11-15 18-01-18.mp4" type="video/mp4"><br></video>
+        <hr>
+        <div class="article-footer">
+            <p>Don’t forget to follow me on <a href="https://twitter.com/Dread_Boy" target="_blank" rel="external">Twitter</a> for regular development updates and subscribe to <a href="http://vozzel.games/atom.xml">RSS feed</a> if you still use that kind of thing. You can also subscribe to my <label for="mce-EMAIL" class="link">mailing list</label>.</p>
+            <form action="https://vozzel.us9.list-manage.com/subscribe/post?u=38c78d5a3e7a6b31da863c070&amp;id=f5e8c4517e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_38c78d5a3e7a6b31da863c070_f5e8c4517e" tabindex="-1" value="">
+                </div>
+                <input type="submit" value="Subscribe" class="button">
+            </form>
+        </div>
+    </div>
+
+    
+
+    
+
+    <!-- Comments -->
+    
+
+</div>
+        </section>
+
+    </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<div class="push"></div>
+
+<footer class="footer-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
+                <h2>About</h2>
+                <p>
+                    Vozzel games is one-man indie game dev studio, formed by Matic Leva.
+                </p>
+            </div>
+            
+<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 recent-posts">
+    <h2>Recent Posts</h2>
+    <ul class="recent_posts">
+        
+        <li>
+            
+            <a class="footer-post" href="/2018/01/11/first-alpha-and-tech-stack/" title="First alpha build and technology stack">
+                <span>
+                    First alpha build and technology stack
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            
+            <a class="footer-post" href="/2017/12/22/development-news-2/" title="Development news on 22. December 2017">
+                <span>
+                    Development news on 22. December 2017
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            
+            <a class="footer-post" href="/2017/12/11/development-news-1/" title="Development news on 11. December 2017">
+                <span>
+                    Development news on 11. December 2017
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            
+            <a class="footer-post" href="/2017/12/04/animation-blender-and-unity/" title="Unity-centric guide to Blender animations">
+                <span>
+                    Unity-centric guide to Blender animations
+                </span>
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 footer-maillist">
+	<!-- Begin MailChimp Signup Form -->
+	<form action="https://vozzel.us9.list-manage.com/subscribe/post?u=38c78d5a3e7a6b31da863c070&amp;id=f5e8c4517e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+		<label for="mce-EMAIL">Subscribe to my mailing list</label>
+		<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+		<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_38c78d5a3e7a6b31da863c070_f5e8c4517e" tabindex="-1" value=""></div>
+		<input type="submit" value="Subscribe" class="button">
+	</form>
+	<!--End mc_embed_signup-->
+</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ul class="list-inline footer-social-icons">
+                    
+                    <li class="list-inline-item">
+                        <a href="https://github.com/DreadBoy">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-github"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/Dread_Boy">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-twitter"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="mailto:contact@vozzel.games">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-envelope-o"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="\atom.xml">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-rss"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="footer-copyright">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- After footer scripts -->
+
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Tween Max -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Custom JavaScript -->
+<script src="/js/main.js"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>

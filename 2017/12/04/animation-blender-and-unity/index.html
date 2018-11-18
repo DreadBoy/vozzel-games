@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head><meta name="generator" content="Hexo 3.8.0">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="Vozzel games is one-man indie game dev studio, formed by Matic Leva.">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Matic Leva">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Unity-centric guide to Blender animations">
+        <meta name="twitter:title" content="Unity-centric guide to Blender animations">
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Vozzel games is one-man indie game dev studio, formed by Matic Leva.">
+        <meta name="twitter:description" content="Vozzel games is one-man indie game dev studio, formed by Matic Leva.">
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Vozzel Games">
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article">
+    
+
+    <!--Page Cover-->
+    
+        <meta property="og:image" content="http://vozzel.games/2017/12/04/animation-blender-and-unity/2017-12-04 11-06-24.png">
+    
+
+    <!--Twitter tags-->
+    
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="http://vozzel.games/2017/12/04/animation-blender-and-unity/2017-12-04 11-06-24.png">
+    
+
+    
+        <meta name="twitter:site" content="@Dread_Boy>">
+    
+
+    <!-- Title -->
+    
+    <title>Unity-centric guide to Blender animations - Vozzel Games</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Google Analytics -->
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-110603824-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+</head>
+
+
+<body>
+
+<div class="bg-gradient"></div>
+<div class="bg-pattern"></div>
+
+<!-- Menu -->
+<!--Menu Links and Overlay-->
+<div class="menu-bg">
+    <div class="menu-container">
+        <ul>
+            
+            <li class="menu-item">
+                <a href="/">
+                    Home
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/archives">
+                    Archives
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/contact">
+                    Contact
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+<!--Hamburger Icon-->
+<nav>
+    <a href="#menu"></a>
+</nav>
+
+<div class="container">
+
+    <!-- Main Content -->
+    <div class="row">
+    <div class="col-sm-12">
+
+        <!--Title and Logo-->
+        <header>
+    <div class="logo">
+        <a href="/"><i class="logo-icon fa fa-cog fa-spin" aria-hidden="true"></i></a>
+        
+    </div>
+</header>
+
+        <section class="main">
+            
+<div class="post">
+
+    <div class="post-header">
+        <h1 class="title">
+            <a href="/2017/12/04/animation-blender-and-unity/">
+                Unity-centric guide to Blender animations
+            </a>
+        </h1>
+        <div class="post-info">
+            
+                <span class="date">2017-12-04</span>
+            
+            
+            
+        </div>
+    </div>
+
+    <div class="content">
+
+        <!-- Gallery -->
+        
+
+        <!-- Post Content -->
+        <p>Recently I wanted to model, texture, animate and export to Unity first complex machine in my upcoming game. I searched wide and far and couldn’t find simple text guide on how to animate object, correctly export it and then import it into Unity. This guide hopes to achieve that, guiding you through simple steps on how to create following windmill.</p>
+<video poster="/2017/12/04/animation-blender-and-unity/2017-12-04 11-06-24.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" webkit-playsinline=""><br>        <source src="/2017/12/04/animation-blender-and-unity/2017-12-04 11-06-24.mp4" type="video/mp4"><br></video>
+
+<h2 id="Parenting-relevant-objects-under-common-parent"><a href="#Parenting-relevant-objects-under-common-parent" class="headerlink" title="Parenting relevant objects under common parent"></a>Parenting relevant objects under common parent</h2><p>I’ll assume you already know how to model and texture an object and if you don’t, you can follow my <a href="/2017/11/13/Texturing-and-UV-mapping/">other guide</a> (there’s also <a href="/2017/11/14/Importing-Blender-models-into-Unity/">2nd part</a>). So let’s start with this textured model.</p>
+<p><img src="step1.png" alt=""></p>
+<p>Notice that I decided to parent all 4 hand of windmill under centre, to make animation way easier. You can do that by selecting all 4 hands and only after that selecting centre object. Done that simply press <code>Ctrl+P</code> and select Set parent to Object. If you did it correctly, your outliner window will look something like below. Because I selected centre object last, all hand are nested under it.  </p>
+<p><img src="step2.png" alt=""></p>
+<h2 id="Create-new-action-and-start-animating"><a href="#Create-new-action-and-start-animating" class="headerlink" title="Create new action and start animating"></a>Create new action and start animating</h2><p>While keeping <code>centre</code> selected, switch to Dope sheet (<code>Shift+F12</code>), switch editor to Action Editor and create new action. I’ll name mine <code>Spinning</code> since this is what I want to animate but you can get creative with a name. This is also what you are going to see in Unity Mecanim later on as its own animation state.</p>
+<p><img src="step3.png" alt=""></p>
+<p>Now you can switch back to 3D view (<code>Shift+F5</code>) and start animating. We do animation by changing object properties and inserting new keyframes that remember state of object. Blender then automatically calculates values of object’s properties between frames. If you wish to see all keyframes and move between them, open up Timeline window. I’ve set length of animation to 40 frames and initial frame at 0. I suggest you do the same.</p>
+<p><img src="step4.png" alt=""></p>
+<p>Next step is to set the rotation of object to its initial rotation, keeping mouse pointer over rotation number button and then pressing I. Part of UI that is effected by keyframes change colours and to learn what each colour means, you can check out <a href="https://docs.blender.org/manual/en/dev/animation/introduction.html#state-colors" target="_blank" rel="noopener">Blender manual</a>. Since we just inserted new keyframe, rotation number button should change to yellow colour. Next we move keyframe to 10, change <code>centre</code>‘s rotation to 270 and press <code>I</code> again. Don’t forget to hover your mouse over rotation number button when pressing <code>I</code>. If you don’t do this, Insert Keyframe menu will pop up, prompting you which object’s properties you want to save to keyframe. Selecting rotation from this menu is same as hovering over relevant UI and pressing <code>I</code> so choose you poison. 😉 </p>
+<p><img src="step5.png" alt=""></p>
+<p>Repeating this 4 more times, rotating object -90° each keyframe, will bring you to keyframe 40 and object’s rotation of 0. If we play animation at this point (<code>Alt+A</code>), we get this nice spinning wheel. </p>
+<video poster="/2017/12/04/animation-blender-and-unity/2017-12-04 12-11-53.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" webkit-playsinline=""><br>        <source src="/2017/12/04/animation-blender-and-unity/2017-12-04 12-11-53.mp4" type="video/mp4"><br></video>
+
+<p>But if you watch closely you will see that at the end of each loop, wheel slows down and then picks up speed again. The spinning movement is not smooth. To fix that we need to switch to Graph Editor (<code>Shift+F6</code>), select all keyframes by pressing <code>A</code> and then enable cyclic mode. To do that, press <code>Shift+E</code> and select Make cyclic (F-Modifier) and Linear interpolation. If we switch back to 3D view, we are greeted by nicely looping spinning windmill wheel.</p>
+<h2 id="Prepare-animation-for-Unity"><a href="#Prepare-animation-for-Unity" class="headerlink" title="Prepare animation for Unity"></a>Prepare animation for Unity</h2><p>At this point, we successfully animated the wheel but now we need to prepare that animation for Unity. Blender has a lot of export options regarding animation but I find the best way is to save all actions under parent’s track as NLA strips and export only non-muted NLA strips. To work with NLA strips, switch to NLA Editor (no shortcut for that, sorry 🙁) and you will notice each object gets its own track. You will also notice all actions we created in Dope sheet already appear under object’s track as stashed strips. Since we are going to export only non-muted and active strips, we need to push those strips down with little arrow-y button.</p>
+<p><img src="step6.png" alt=""></p>
+<p>If you are working on multiple animations, you will see all of them listed here in NLA editor. By default all actions are non-muted and all of them are going to play at the same time when you press <code>Alt+A</code>. To avoid that, simply mute all but one with little speaker button. Once we created all desired animations and pushed them on NLA track, all we need to do is to correctly export. Bellow is screenshot of correct export settings for animation. If you wish to see settings under Main tab, go read my <a href="/2017/11/14/Importing-Blender-models-into-Unity/">other guide</a>. </p>
+<p><img src="step7.png" alt=""></p>
+<p>Finally switch to Unity and let it import our new model. If you did everything correctly, you will see our 2 new animations nested under imported model. You will also notice their names are simply Spinning and Jiggle, same as action’s names in Blender. This extra step with NLA editor and strips is sadly the only way to avoid garbage animations that appear if you choose any other export method.</p>
+<p><img src="step8.png" alt=""></p>
+<p>At this point you can use these 2 animations in Mecanim as you would any other animation created in Unity. </p>
+        <hr>
+        <div class="article-footer">
+            <p>Don’t forget to follow me on <a href="https://twitter.com/Dread_Boy" target="_blank" rel="external">Twitter</a> for regular development updates and subscribe to <a href="http://vozzel.games/atom.xml">RSS feed</a> if you still use that kind of thing. You can also subscribe to my <label for="mce-EMAIL" class="link">mailing list</label>.</p>
+            <form action="https://vozzel.us9.list-manage.com/subscribe/post?u=38c78d5a3e7a6b31da863c070&amp;id=f5e8c4517e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_38c78d5a3e7a6b31da863c070_f5e8c4517e" tabindex="-1" value="">
+                </div>
+                <input type="submit" value="Subscribe" class="button">
+            </form>
+        </div>
+    </div>
+
+    
+
+    
+
+    <!-- Comments -->
+    
+
+</div>
+        </section>
+
+    </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<div class="push"></div>
+
+<footer class="footer-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
+                <h2>About</h2>
+                <p>
+                    Vozzel games is one-man indie game dev studio, formed by Matic Leva.
+                </p>
+            </div>
+            
+<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 recent-posts">
+    <h2>Recent Posts</h2>
+    <ul class="recent_posts">
+        
+        <li>
+            
+            <a class="footer-post" href="/2018/01/11/first-alpha-and-tech-stack/" title="First alpha build and technology stack">
+                <span>
+                    First alpha build and technology stack
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            
+            <a class="footer-post" href="/2017/12/22/development-news-2/" title="Development news on 22. December 2017">
+                <span>
+                    Development news on 22. December 2017
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            
+            <a class="footer-post" href="/2017/12/11/development-news-1/" title="Development news on 11. December 2017">
+                <span>
+                    Development news on 11. December 2017
+                </span>
+            </a>
+        </li>
+        
+        <li>
+            
+            <a class="footer-post" href="/2017/12/04/animation-blender-and-unity/" title="Unity-centric guide to Blender animations">
+                <span>
+                    Unity-centric guide to Blender animations
+                </span>
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 footer-maillist">
+	<!-- Begin MailChimp Signup Form -->
+	<form action="https://vozzel.us9.list-manage.com/subscribe/post?u=38c78d5a3e7a6b31da863c070&amp;id=f5e8c4517e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+		<label for="mce-EMAIL">Subscribe to my mailing list</label>
+		<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+		<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_38c78d5a3e7a6b31da863c070_f5e8c4517e" tabindex="-1" value=""></div>
+		<input type="submit" value="Subscribe" class="button">
+	</form>
+	<!--End mc_embed_signup-->
+</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ul class="list-inline footer-social-icons">
+                    
+                    <li class="list-inline-item">
+                        <a href="https://github.com/DreadBoy">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-github"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/Dread_Boy">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-twitter"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="mailto:contact@vozzel.games">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-envelope-o"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="\atom.xml">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-rss"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="footer-copyright">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- After footer scripts -->
+
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Tween Max -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Custom JavaScript -->
+<script src="/js/main.js"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>

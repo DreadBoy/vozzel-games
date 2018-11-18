@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Vozzel Games</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://vozzel.games/"/>
+  <updated>2018-11-18T12:28:45.601Z</updated>
+  <id>http://vozzel.games/</id>
+  
+  <author>
+    <name>Matic Leva</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>First alpha build and technology stack</title>
+    <link href="http://vozzel.games/2018/01/11/first-alpha-and-tech-stack/"/>
+    <id>http://vozzel.games/2018/01/11/first-alpha-and-tech-stack/</id>
+    <published>2018-01-11T18:31:21.000Z</published>
+    <updated>2018-11-18T12:28:45.601Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I just pushed out first alpha build to my mailing list and I think it’s time to talk about technology stack that’s powering this blog and build distribution.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Development news on 22. December 2017</title>
+    <link href="http://vozzel.games/2017/12/22/development-news-2/"/>
+    <id>http://vozzel.games/2017/12/22/development-news-2/</id>
+    <published>2017-12-22T18:43:55.000Z</published>
+    <updated>2018-11-18T12:28:45.482Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Christmas is here and with that also 3 new machines. 🙂 In a light of upcoming public alpha I worked on implementing machines needed for first automated tree farm and reworked world renderer again. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2017/12/22/development-news-2/thumbnail.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Development news on 11. December 2017</title>
+    <link href="http://vozzel.games/2017/12/11/development-news-1/"/>
+    <id>http://vozzel.games/2017/12/11/development-news-1/</id>
+    <published>2017-12-11T15:32:47.000Z</published>
+    <updated>2018-11-18T12:28:45.306Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;In first edition of Development news we are going to take a look at progress so far, rant about Twitter’s crappy video compression and make predictions about first public alpha.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Unity-centric guide to Blender animations</title>
+    <link href="http://vozzel.games/2017/12/04/animation-blender-and-unity/"/>
+    <id>http://vozzel.games/2017/12/04/animation-blender-and-unity/</id>
+    <published>2017-12-04T12:15:47.000Z</published>
+    <updated>2018-11-18T12:28:45.260Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Recently I wanted to model, texture, animate and export to Unity first complex machine in my upcoming game. I searched wide and far and couldn’t find simple text guide on how to animate object, correctly export it and then import it into Unity. This guide hopes to achieve that, guiding you through simple steps on how to create following windmill.&lt;/p&gt;
+&lt;video poster=&quot;/2017/12/04/animation-blender-and-unity/2017-12-04 11-06-24.png&quot; preload=&quot;auto&quot; autoplay=&quot;autoplay&quot; muted=&quot;muted&quot; loop=&quot;loop&quot; webkit-playsinline=&quot;&quot;&gt;&lt;br&gt;        &lt;source src=&quot;/2017/12/04/animation-blender-and-unity/2017-12-04 11-06-24.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;br&gt;&lt;/video&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Entities can now display notification callouts</title>
+    <link href="http://vozzel.games/2017/11/26/notification-callouts/"/>
+    <id>http://vozzel.games/2017/11/26/notification-callouts/</id>
+    <published>2017-11-26T16:09:01.000Z</published>
+    <updated>2018-11-18T12:28:45.614Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Last few days I’ve been working on machine notifications. Imagine your furnace ran out of coal or conveyor belt is backed up… As a game designer, how do you convey this information to the player? &lt;/p&gt;
+&lt;video poster=&quot;/2017/11/26/notification-callouts/2017-11-26 14-39-48.png&quot; preload=&quot;auto&quot; autoplay=&quot;autoplay&quot; muted=&quot;muted&quot; loop=&quot;loop&quot; webkit-playsinline=&quot;&quot;&gt;&lt;br&gt;        &lt;source src=&quot;/2017/11/26/notification-callouts/2017-11-26 14-39-48.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;br&gt;&lt;/video&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>I&#39;ve just spent 3 days fixing my mistake</title>
+    <link href="http://vozzel.games/2017/11/20/I-ve-just-spent-3-days-fixing-my-mistake/"/>
+    <id>http://vozzel.games/2017/11/20/I-ve-just-spent-3-days-fixing-my-mistake/</id>
+    <published>2017-11-20T14:04:15.000Z</published>
+    <updated>2018-11-18T12:28:45.231Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Yes, you’ve read it right. I made a mistake and it took me 3 days to fix it. Here’s what I did and how I fixed it.&lt;/p&gt;
+&lt;p&gt;note: technical blog post ahead&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Importing Blender models into Unity</title>
+    <link href="http://vozzel.games/2017/11/14/Importing-Blender-models-into-Unity/"/>
+    <id>http://vozzel.games/2017/11/14/Importing-Blender-models-into-Unity/</id>
+    <published>2017-11-14T14:48:12.000Z</published>
+    <updated>2018-11-18T12:28:45.247Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Unity promises to seamlessly import &lt;code&gt;.fbx&lt;/code&gt; files that were exported from Blender. While that is mostly true, there are still some additional steps we need to take and some caveats we need to be aware off. After fiddling around with Blender and Unity and a lot of help from internet, I managed to compile a list of steps you need to take in order to successfully export model from Blender and use it in Unity and I’m sharing it in following blog post.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Texturing and UV mapping</title>
+    <link href="http://vozzel.games/2017/11/13/Texturing-and-UV-mapping/"/>
+    <id>http://vozzel.games/2017/11/13/Texturing-and-UV-mapping/</id>
+    <published>2017-11-13T16:06:11.000Z</published>
+    <updated>2018-11-18T12:28:45.254Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I’m a great fan of retro pixel and low-poly art styles and for my latest game project I’m trying my hands at recreating it. My biggest inspirations so far are Terraria, Minecraft and to an extend Stoneheart and I’m trying to recreate those styles. I have almost zero artistic skills so for the starter I decided to use free textures created by Kenney and combine them to create complete textures for machines. After following &lt;a href=&quot;https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/UV_Map_Basics&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Blender’s tutorial&lt;/a&gt; I was familiar with how to unwrap cube and apply texture to it but this where the tutorial ended. When I tried texturing more complex objects I failed spectacularly and after finally figuring it out, I decided to write simple step by step advice on how I did it. I’m going to walk you through texturing new machine, High temperature stone furnace. This is how it’s going to look like at the end: &lt;/p&gt;
+&lt;p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Got first multiblock structure into the game and also implemented some basic automation. Things are shaping up :) &lt;a href=&quot;https://t.co/SNFxKxKBYY&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;pic.twitter.com/SNFxKxKBYY&lt;/a&gt;&lt;/p&gt;&amp;mdash; Matic Leva (@Dread_Boy) &lt;a href=&quot;https://twitter.com/Dread_Boy/status/929976795851616256?ref_src=twsrc%5Etfw&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;November 13, 2017&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
