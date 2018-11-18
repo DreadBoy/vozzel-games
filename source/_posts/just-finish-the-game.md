@@ -1,5 +1,6 @@
 ---
 title: Just finish the damn game!
+logoIcon: fa-clock-o
 date: 2018-11-18 13:56:12
 tags:
 ---
