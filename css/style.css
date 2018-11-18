@@ -563,6 +563,7 @@ footer.footer-content ul.recent_posts a {
   display: inline-block;
   width: 100%;
   line-height: 1em;
+  text-align: left;
 }
 footer.footer-content ul.recent_posts a:after {
   display: block;
@@ -606,7 +607,7 @@ footer.footer-content .footer-social-icons li .footer-icon-container i {
 }
 footer.footer-content .footer-social-icons li a,
 footer.footer-content .footer-social-icons li a:link,
-footer.footer-content .footer-social-icons li a:visited,
+footer.footer-content .footer-social-icons li a:visitedrecent_posts,
 footer.footer-content .footer-social-icons li a:active {
   border-bottom: 0;
 }
