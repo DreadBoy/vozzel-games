@@ -79,8 +79,8 @@ theme: hexo-theme-alpha-dust
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:DreadBoy/vozzel-games-website.git
-  branch: master
+  repo: git@github.com:DreadBoy/vozzel-games.git
+  branch: gh-pages
 
 feed:
   type: atom
