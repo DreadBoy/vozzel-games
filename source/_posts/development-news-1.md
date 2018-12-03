@@ -136,7 +136,7 @@ Make player movement speed nondependent on framerate
 </samp></details>
 
 
-To sum up changes in last month: saving and loading, main menu, first machines and tools, QOL improvements (tooltips, callouts). I also optimized world rendering but unless you are really observant, you won't notice any changes. Question at that point is probably *"When are you going to release something we can play?"*. And the good news is I expect to release first public alpha in a couple of weeks. Goal for first release is full implementation of first process that will take you from basic automatic tree farm all the way to windmill crafting. Hopefully this will give us first feeling of what the gameplay will look like. But to achieve that, I need to expand functionality of tools since they can currently be used only by player and also add a bunch of machines for different operations in mention process.
+To sum up changes in last month: saving and loading, main menu, first machines and tools, QOL improvements (tooltips, callouts). I also optimized world rendering but unless you are really observant, you won't notice any changes. Question at that point is probably *"When are you going to release something we can play?"*. And the good news is I expect to release first public alpha in a couple of weeks. Goal for first release is full implementation of first process that will take you from basic automatic tree farm all the way to windmill crafting. Hopefully this will give us first feeling of what the gameplay will look like. But to achieve that, I need to expand functionality of tools since they can currently be used only by player and also add a bunch of machines for different operations in mentioned process.
 
 ## Reposted videos
 
