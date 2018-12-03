@@ -25,6 +25,7 @@ a, a:link, a:visited, a:active, label.link
   cursor: pointer
   transition: text-shadow 0.3s ease, border-bottom-color 0.5s ease
   text-decoration none
+
 a:hover
   color $mainColor1
   text-shadow $titleTextShadowLight
@@ -36,9 +37,11 @@ a:hover
   text-decoration: none
   font-family: $fontTitle
   background: $btnBgColor
+
   &:hover
     background: darken($btnBgColor, 8%)
     transition: all 0.3s ease
+
   &:active
     background: darken($btnBgColor, 25%)
 
@@ -46,3 +49,12 @@ a:hover
   height: 150px
   @media $xs
     height 60px
+
+ul
+  list-style: none
+  padding-left: 1rem
+
+  li:before
+    content: "\25cf\00a0\00a0";
+  li.checked:before
+    content: "\2713\00a0\00a0";
