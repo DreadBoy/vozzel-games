@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://vozzel.games/"/>
-  <updated>2018-11-18T17:12:37.492Z</updated>
+  <updated>2018-12-03T21:31:15.362Z</updated>
   <id>http://vozzel.games/</id>
   
   <author>
@@ -17,11 +17,28 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Development news on 03. December 2018</title>
+    <link href="http://vozzel.games/2018/12/03/development-news-2018-12-03/"/>
+    <id>http://vozzel.games/2018/12/03/development-news-2018-12-03/</id>
+    <published>2018-12-03T20:27:00.000Z</published>
+    <updated>2018-12-03T21:31:15.362Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Almost a month ago I promised to finish a game… It’s starting to take shape!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/2018/12/03/development-news-2018-12-03/2018-12-03 21-46-38.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Just finish the damn game!</title>
     <link href="http://vozzel.games/2018/11/18/just-finish-the-game/"/>
     <id>http://vozzel.games/2018/11/18/just-finish-the-game/</id>
     <published>2018-11-18T12:56:12.000Z</published>
-    <updated>2018-11-18T17:12:37.492Z</updated>
+    <updated>2018-12-03T21:30:58.719Z</updated>
     
     <summary type="html">
     
@@ -53,7 +70,7 @@
     <link href="http://vozzel.games/2017/12/22/development-news-2/"/>
     <id>http://vozzel.games/2017/12/22/development-news-2/</id>
     <published>2017-12-22T18:43:55.000Z</published>
-    <updated>2018-11-18T12:28:45.482Z</updated>
+    <updated>2018-12-03T20:35:57.368Z</updated>
     
     <summary type="html">
     
@@ -70,7 +87,7 @@
     <link href="http://vozzel.games/2017/12/11/development-news-1/"/>
     <id>http://vozzel.games/2017/12/11/development-news-1/</id>
     <published>2017-12-11T15:32:47.000Z</published>
-    <updated>2018-11-18T12:28:45.306Z</updated>
+    <updated>2018-12-03T21:19:21.462Z</updated>
     
     <summary type="html">
     
