@@ -68,14 +68,14 @@ a:hover {
     height: 60px;
   }
 }
-ul {
+ul.checklist {
   list-style: none;
   padding-left: 1rem;
 }
-ul li:before {
+ul.checklist li:before {
   content: "\25cf\00a0\00a0";
 }
-ul li.checked:before {
+ul.checklist li.checked:before {
   content: "\2713\00a0\00a0";
 }
 header {
