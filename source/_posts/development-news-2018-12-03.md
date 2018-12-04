@@ -20,10 +20,9 @@ Right after I posted {% post_link just-finish-the-game previous post %} I came d
 
 Looking back at feature list in previous post, I can tick off 2 features I managed to implement:
 
-<ul><li class="checked">player moves ship and shoots bullets</li><li class="checked">game spawns new enemies all the time</li><li>enemies move and shoot, behaviour is determined by enemy</li><li>game tracks player's HP and score</li><li>game displays end screen when player is dead</li>
-</ul>
+<ul class="checklist"><li class="checked">player moves ship and shoots bullets</li><li class="checked">game spawns new enemies all the time</li><li>enemies move and shoot, behaviour is determined by enemy</li><li>game tracks player's HP and score</li><li>game displays end screen when player is dead</li></ul>
 
-And let me tell you, it's nice to have clear plan and list of features I can tick off. 🙂 It's also nice to have something to show off:
+<p>And let me tell you, it's nice to have clear plan and list of features I can tick off. 🙂 It's also nice to have something to show off:</p>
 
 <figure><video poster="/2018/12/03/development-news-2018-12-03/2018-12-03 21-46-38.png" preload="auto" autoplay="autoplay" muted="muted" loop="loop" webkit-playsinline="">
 		<source src="/2018/12/03/development-news-2018-12-03/2018-12-03 21-46-38.mp4" type="video/mp4">
