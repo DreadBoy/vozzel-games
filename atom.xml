@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://vozzel.games/"/>
-  <updated>2018-12-04T15:40:53.408Z</updated>
+  <updated>2019-01-03T22:27:50.432Z</updated>
   <id>https://vozzel.games/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Development news on 30. December 2018</title>
+    <link href="https://vozzel.games/2018/12/30/development-news-2018-12-30/"/>
+    <id>https://vozzel.games/2018/12/30/development-news-2018-12-30/</id>
+    <published>2018-12-30T09:32:00.000Z</published>
+    <updated>2019-01-03T22:27:50.432Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Another month has gone by and another 2 features were ticked off. 🙂&lt;/p&gt;
+&lt;video poster=&quot;/2018/12/30/development-news-2018-12-30/2018-12-30 11-45-38.png&quot; preload=&quot;auto&quot; autoplay muted loop playsinline=&quot;&quot;&gt;&lt;br&gt;        &lt;source src=&quot;/2018/12/30/development-news-2018-12-30/2018-12-30 11-45-38.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;br&gt;&lt;/video&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Development news on 03. December 2018</title>
